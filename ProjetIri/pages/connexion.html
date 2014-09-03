@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Connexion</title>
+		<meta name="description" content="Minimal Form Interface: Simplistic, single input view form" />
+		<meta name="keywords" content="form, minimal, interface, single input, big form, responsive form, transition" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="../css/form/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/form/demo.css" />
+		<link rel="stylesheet" type="text/css" href="../css/form/component.css" />
+		<script src="../js/form//modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<header class="codrops-header">
+				<h1>Accédez à vos cours !<span></span></h1>	
+			</header>
+			<section>
+				<form id="theForm" class="simform" autocomplete="off">
+					<div class="simform-inner">
+						<ol class="questions">
+							<li>
+								<span><label for="q1">Nom d'utilisateur</label></span>
+								<input id="q1" name="q1" type="text"/>
+							</li>
+							<li>
+								<span><label for="q2">Mot de passe</label></span>
+								<input id="q2" name="q2" type="text"/>
+							</li>
+						</ol><!-- /questions -->
+						<button class="submit" type="submit">Send answers</button>
+						<div class="controls">
+							<button class="next"></button>
+							<div class="progress"></div>
+							<span class="number">
+								<span class="number-current"></span>
+								<span class="number-total"></span>
+							</span>
+							<span class="error-message"></span>
+						</div><!-- / controls -->
+					</div><!-- /simform-inner -->
+					<span class="final-message"></span>
+				</form><!-- /simform -->			
+			</section>
+			
+		</div><!-- /container -->
+		<script src="../js/form//classie.js"></script>
+		<script src="../js/form//stepsForm.js"></script>
+		<script>
+			var theForm = document.getElementById( 'theForm' );
+
+			new stepsForm( theForm, {
+				onSubmit : function( form ) {
+					// hide form
+					classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
+
+					/*
+					form.submit()
+					or
+					AJAX request (maybe show loading indicator while we don't have an answer..)
+					*/
+
+					// let's just simulate something...
+					var messageEl = theForm.querySelector( '.final-message' );
+					messageEl.innerHTML = 'Merci !';
+					classie.addClass( messageEl, 'show' );
+					
+					//window.location.href = "../index.html"; /* connexon ICI*/
+				}
+			} );
+		</script>
+	</body>
+</html>

@@ -1,0 +1,6 @@
+C:\wamp\www\ProjetIriServer\ServerIri\TutoIri\bin\Debug\TutoIri.exe
+C:\wamp\www\ProjetIriServer\ServerIri\TutoIri\bin\Debug\TutoIri.pdb
+C:\wamp\www\ProjetIriServer\ServerIri\TutoIri\obj\x86\Debug\Serveriri.csprojResolveAssemblyReference.cache
+C:\wamp\www\ProjetIriServer\ServerIri\TutoIri\obj\x86\Debug\TutoIri.exe
+C:\wamp\www\ProjetIriServer\ServerIri\TutoIri\obj\x86\Debug\TutoIri.pdb
+C:\wamp\www\ProjetIriServer\ServerIri\TutoIri\bin\Debug\MySql.Data.dll

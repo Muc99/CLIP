@@ -1,0 +1,2 @@
+<div style="float:left; margin-top:-10px;"><img src="img/logo.png" height=80/></div>
+<div style="text-align:right; margin-bottom:100px"><img src="img/utilisateur.png" height=40/><p style="float:right;margin-left:10px;margin-right:10px;margin-top:8px;font-family: calibri;font-size: 20px;color:black"><?php echo $_SESSION['pseudo']; ?></p></div>

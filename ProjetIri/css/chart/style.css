@@ -1,0 +1,97 @@
+@import url('normalize.css');
+@import url('demo.css');
+
+
+
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+ 
+.white_content {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    padding: 16px;
+    border: 16px solid orange;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+
+
+#chart-container {
+	width: 1000px; 
+	margin: 0 auto 50px auto;
+	padding: 20px 30px;
+}
+
+#chart-container h2 {
+	color: #26C281;
+	margin: 0 0 10px;
+	font-weight: 300;
+	padding: 10px;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+	font-size: 24px;
+}
+
+svg {
+	font-family: 'Lato', Arial, serif;
+	font-size: 10px;
+	font-weight: 700;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+}
+
+text.country-title {
+	font-size: 20px;
+}
+
+text.instructions {
+	font-size: 16px;
+}
+
+g.context g.brush rect.background {
+	fill: rgba(0,0,0,.1);
+}
+
+g.context g.axis path {
+	stroke-opacity: 0;
+}
+
+g.context g.axis line {
+	stroke-opacity: .1;
+}
+
+g.activite path.chart {
+	fill: #26C281;
+}
+
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #26C281;
+	shape-rendering: crispEdges;
+}
+
+.brush .extent {
+	stroke: #f09f8c;
+	fill-opacity: .125;
+	shape-rendering: crispEdges;
+}
+
+g.context rect.background{
+	fill: rgb(200,200,255);
+	visibility: visible !important;
+}​

@@ -1,0 +1,13 @@
+C:\Users\QuentinM\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\QuentinM\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\QuentinM\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\QuentinM\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\QuentinM\documents\visual studio 2010\Projects\TutoIri\TutoIri\obj\x86\Debug\TutoIri.csprojResolveAssemblyReference.cache
+C:\Users\QuentinM\documents\visual studio 2010\Projects\TutoIri\TutoIri\bin\Debug\TutoIri.exe
+C:\Users\QuentinM\documents\visual studio 2010\Projects\TutoIri\TutoIri\bin\Debug\TutoIri.pdb
+C:\Users\QuentinM\documents\visual studio 2010\Projects\TutoIri\TutoIri\bin\Debug\MySql.Data.dll
+C:\Users\QuentinM\documents\visual studio 2010\Projects\TutoIri\TutoIri\bin\Debug\MySql.Data.Entity.dll
+C:\Users\QuentinM\documents\visual studio 2010\Projects\TutoIri\TutoIri\obj\x86\Debug\TutoIri.exe
+C:\Users\QuentinM\documents\visual studio 2010\Projects\TutoIri\TutoIri\obj\x86\Debug\TutoIri.pdb
+C:\wamp\www\ProjetIriServer\ServerIri\TutoIri\obj\x86\Debug\TutoIri.exe
+C:\wamp\www\ProjetIriServer\ServerIri\TutoIri\obj\x86\Debug\TutoIri.pdb
